@@ -1,0 +1,31 @@
+This is just a backup of the class assignment system in case I ever need to use it again
+
+ # if(message.guild.get_role(702218518879404072) in rolelist or message.guild.get_role(702218474046357674) in rolelist or message.guild.get_role(702218568674181223) in rolelist):
+        #     await ctx.message.delete()
+        #     return
+
+
+
+        # if(message.content =="warlock"):
+        #     newMember = ctx.message.author
+        #     await newMember.add_roles(ctx.message.guild.get_role(702218518879404072))
+        #     await ctx.message.channel.send(f"{newMember.display_name} has chosen to be a Warlock!")
+        #     return
+
+        # if(message.content =="titan"):
+        #     newMember = ctx.message.author
+        #     await newMember.add_roles(ctx.message.guild.get_role(702218474046357674)) 
+        #     await ctx.message.channel.send(f"{newMember.display_name} has chosen to be a Titan!")   
+        #     return
+
+        # if(message.content =="hunter"):
+        #     newMember = ctx.message.author
+        #     await newMember.add_roles(ctx.message.guild.get_role(702218568674181223))
+        #     await ctx.message.channel.send(f"{newMember.display_name} has chosen to be a Hunter!")
+        #     return
+
+        
+
+        # else:
+        #     if(message.author != bot.user):
+        #         await ctx.message.channel.send("What? I am a dumb robot, make sure you spelled that correctly. Choices: `warlock`, `titan`, `hunter`")
